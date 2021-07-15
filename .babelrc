@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false //默认都是支持 CommonJS
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "comments": false, //不产生注释
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    ["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": true }]
+  ]
+}

@@ -1,0 +1,280 @@
+.dashboard {
+  height: calc(100% - 32px);
+  box-sizing: border-box;
+  :global {
+    .ant-card-head {
+      background-color: #f9f9f9;
+    }
+    .ant-card-body {
+      padding: 8px;
+    }
+    .ant-table-thead > tr > th {
+      color: #666666;
+      background: #ffffff;
+    }
+    .ant-table-tbody > tr > td {
+      color: #999999;
+      background: #ffffff;
+    }
+  }
+  .tree {
+    width: 300px;
+    height: 100%;
+    overflow: auto;
+
+    .site-tree-search-value {
+      color: #f50;
+    }
+
+    .ellipsis {
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .hide {
+      max-width: 60px;
+    }
+
+    :global {
+      .ant-tree {
+        height: calc(100% - 70px);
+        overflow: auto;
+      }
+      .ant-tree .ant-tree-node-content-wrapper {
+        position: unset;
+      }
+    }
+    .actions {
+      position: absolute;
+      right: 20px;
+      color: #00acc1;
+    }
+  }
+
+  .divider {
+    background-color: #eee;
+    width: 6px;
+    height: 100%;
+    margin: 0;
+    margin-top: -12px;
+  }
+  .TableComponents {
+    width: calc(100% - 322px);
+  }
+}
+.operate-button {
+  :global {
+    button {
+      color: #999999;
+      font-weight: 900;
+    }
+    .ant-input-group {
+      color: #999999;
+      font-weight: 900;
+    }
+  }
+}
+.deviceInfo_box {
+  max-height: calc(100% - 39px);
+  height: calc(100% - 39px);
+}
+.deviceInfo_box_1 {
+  height: 50%;
+  max-height: 50%;
+}
+.deviceInfo_flex {
+  display: flex;
+  align-items: center;
+}
+.deviceInfo {
+  border: 1px solid #13c2c2;
+  border-radius: 4px;
+  // height: 120px;
+  height: calc(100% - 16px);
+  margin-top: 16px;
+  .deviceInfoImg {
+    // text-align: center;
+    // vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      height: 50px;
+      width: 50px;
+      background: #00bab9;
+      display: inline-block;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .deviceInfoValue {
+    width: 100%;
+    color: #666666;
+    font-weight: 800;
+    // margin-top: 24px;
+    font-size: 24px;
+  }
+  .deviceInfoLabel {
+    width: 100%;
+    color: #9e9e9e;
+    font-size: 16px;
+  }
+}
+.eleConsumptionItem {
+  border-left: 6px solid;
+  height: 100%;
+  margin-top: 16px;
+  // padding: 10px 50px;
+  text-align: center;
+  :global {
+    .ant-statistic-title {
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    .ant-statistic-content-value-int {
+      font-size: 28px;
+    }
+    .ant-statistic-content-suffix {
+      font-size: 14px;
+      color: #727b7f;
+    }
+    .ant-card-body {
+      max-height: 100%;
+    }
+  }
+}
+
+.ElectricityConsumption {
+  height: 100%;
+  min-height: 100%;
+  :global {
+    .ant-card-body {
+      max-height: calc(100% - 39px);
+      height: calc(100% - 39px);
+    }
+    .ant-spin-nested-loading {
+      height: 100%;
+      min-height: 100%;
+    }
+    .ant-spin-container {
+      height: 100%;
+      min-height: 100%;
+    }
+    .ant-table {
+      height: 100%;
+      max-height: 100%;
+    }
+    .ant-table-container {
+      height: 100%;
+      max-height: 100%;
+    }
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td,
+    .ant-table tfoot > tr > th,
+    .ant-table tfoot > tr > td {
+      padding: 8px 8px;
+    }
+  }
+  .ElectricityConsumption_Card {
+    height: calc(100% - 16px);
+    min-height: calc(100% - 16px);
+  }
+  .ElectricityConsumption_height {
+    height: 100%;
+    min-height: 100%;
+  }
+  .ElectricityConsumption_height_33 {
+    height: calc(33.3% - 16px);
+    min-height: calc(33.3% - 16px);
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .ElectricityConsumption {
+    font-size: 12px !important;
+    .deviceInfo_box_1 {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+    }
+    :global {
+      .ant-statistic-title {
+        font-weight: 900;
+        font-size: 16px;
+      }
+      .ant-statistic-content-value-int {
+        font-size: 20px;
+      }
+      .ant-statistic-content-suffix {
+        font-size: 12px;
+        color: #727b7f;
+      }
+      .ant-table-thead > tr > th,
+      .ant-table-tbody > tr > td,
+      .ant-table tfoot > tr > th,
+      .ant-table tfoot > tr > td {
+        padding: 4px 4px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1366px) {
+  .ElectricityConsumption {
+    font-size: 12px !important;
+    .deviceInfo_box {
+      zoom: 0.8;
+    }
+    .deviceInfo_box_1 {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+    }
+    :global {
+      .ant-statistic-title {
+        // font-weight: 900;
+        font-size: 14px;
+      }
+      .ant-statistic-content-value-int {
+        font-size: 16px;
+      }
+      .ant-statistic-content-value {
+        font-size: 14px;
+      }
+      .ant-statistic-content {
+        font-size: 16px;
+      }
+      .ant-statistic-content-suffix {
+        font-size: 10px;
+        color: #727b7f;
+      }
+      .ant-table-body {
+        // max-height: 140px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 1080px) {
+  .ElectricityConsumption {
+    .ant-table-body {
+      max-height: 308px !important;
+    }
+  }
+}
+@media screen and (max-height: 1024px) {
+  .ElectricityConsumption {
+    .ant-table-body {
+      max-height: 280px !important;
+    }
+  }
+}
+@media screen and (max-height: 992px) {
+  .ElectricityConsumption {
+    .ant-table-body {
+      max-height: 140px !important;
+    }
+  }
+}

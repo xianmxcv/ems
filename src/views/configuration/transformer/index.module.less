@@ -1,0 +1,65 @@
+.transformer {
+  height: 100%;
+  :global {
+    .ant-card-body {
+      padding: 8px;
+    }
+    .ant-table-thead > tr > th {
+      color: #666666;
+      background: #f2f2f2;
+    }
+    .ant-table-tbody > tr > td {
+      color: #999999;
+      background: #ffffff;
+    }
+  }
+}
+.view-modal {
+  :global {
+    .ant-descriptions-item-label {
+      width: 140px;
+      color: #909090;
+      float: right;
+    }
+    .ant-table-thead > tr > th {
+      color: #666666;
+      background: #f2f2f2;
+    }
+    .ant-table-tbody > tr > td {
+      color: #999999;
+      background: #ffffff;
+    }
+  }
+}
+.operate-button {
+  :global {
+    button {
+      color: #999999;
+      font-weight: 900;
+    }
+    .ant-input-group {
+      color: #999999;
+      font-weight: 900;
+    }
+  }
+}
+
+//修改列表文字、背景颜色
+.AddRateComponent {
+  // height: 100%;
+  height: 80%;
+  max-height: 80%;
+  // overflow-y: auto;
+  :global {
+    .ant-modal-content {
+      height: 70%;
+      max-height: calc(100% - 80px);
+      // max-height: calc(100% - 80px);
+      .ant-modal-body {
+        max-height: 100%;
+        background-color: #fff;
+        overflow-y: auto;
+      }
+    }
+  }
+}

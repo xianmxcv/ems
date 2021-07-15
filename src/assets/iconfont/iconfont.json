@@ -1,0 +1,191 @@
+{
+  "id": "2596478",
+  "name": "ECA-EMS",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10416434",
+      "name": "抄表管理",
+      "font_class": "chaobiaoguanli1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6435040",
+      "name": "通讯",
+      "font_class": "zuoce-tongxun",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "8479687",
+      "name": "清单",
+      "font_class": "qingdan",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "11806551",
+      "name": "配电柜",
+      "font_class": "peidiangui",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "15657215",
+      "name": "电能实时",
+      "font_class": "diannengshishi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "18309270",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "21163416",
+      "name": "参数",
+      "font_class": "canshu",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "52697",
+      "name": "分项列表",
+      "font_class": "fenxiangliebiao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "564540",
+      "name": "报表管理",
+      "font_class": "baobiaoguanli",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "924713",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "1761534",
+      "name": "设备",
+      "font_class": "shebei",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "1790013",
+      "name": "报表",
+      "font_class": "baobiao",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "2678576",
+      "name": "变压器",
+      "font_class": "bianyaqi",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "4512447",
+      "name": "手动标注",
+      "font_class": "shoudongbiaozhu",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "4765881",
+      "name": "dashboard",
+      "font_class": "dashboard",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "6898953",
+      "name": "配置管理",
+      "font_class": "peizhiguanli",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "7339808",
+      "name": "支路设置",
+      "font_class": "zhilushezhi",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "8039216",
+      "name": "区域信息",
+      "font_class": "quyuxinxi",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "8688152",
+      "name": "抄表管理",
+      "font_class": "chaobiaoguanli",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "8688318",
+      "name": "能源能耗管理",
+      "font_class": "nengyuannenghaoguanli",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "10455054",
+      "name": "部门考勤",
+      "font_class": "bumenkaoqin",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "14500577",
+      "name": "监测-1(1)",
+      "font_class": "jiance-11",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "16981772",
+      "name": "电表",
+      "font_class": "dianbiao",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "17258705",
+      "name": "实时监控",
+      "font_class": "shishijiankong",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "19117457",
+      "name": "自动",
+      "font_class": "zidong",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "20032796",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    }
+  ]
+}

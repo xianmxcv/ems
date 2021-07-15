@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "value": "changxian01",
+      "label": "name001",
+      "meterList": [
+        {
+          "emId": "001",
+          "emName": "设备01",
+          "thingId": "abc001",
+          "status": 3
+        },
+        {
+          "emId": "002",
+          "emName": "设备02",
+          "thingId": "abc002",
+          "status": 3
+        },
+        {
+          "emId": "003",
+          "emName": "设备03",
+          "thingId": "abc003",
+          "status": 2
+        },
+        {
+          "emId": "004",
+          "emName": "设备04",
+          "thingId": "abc004",
+          "status": 2
+        },
+        {
+          "emId": "005",
+          "emName": "设备05",
+          "thingId": "abc005",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "value": "changxian02",
+      "label": "name002",
+      "meterList": [
+        {
+          "emId": "001",
+          "emName": "设备06",
+          "thingId": "abc006",
+          "status": 1
+        },
+        {
+          "emId": "002",
+          "emName": "设备07",
+          "thingId": "abc007",
+          "status": 1
+        },
+        {
+          "emId": "003",
+          "emName": "设备08",
+          "thingId": "abc008",
+          "status": 2
+        },
+        {
+          "emId": "004",
+          "emName": "设备09",
+          "thingId": "abc009",
+          "status": 2
+        },
+        {
+          "emId": "005",
+          "emName": "设备10",
+          "thingId": "abc0010",
+          "status": 3
+        }
+      ]
+    },
+    {
+      "value": "changxian02",
+      "label": "name003",
+      "meterList": [
+        {
+          "emId": "001",
+          "emName": "设备11",
+          "thingId": "abc0011",
+          "status": 1
+        },
+        {
+          "emId": "002",
+          "emName": "设备12设备01设备01设备01设备01",
+          "thingId": "abc0012",
+          "status": 1
+        },
+        {
+          "emId": "003",
+          "emName": "设备13设备01设备01设备01设备01",
+          "thingId": "abc0013",
+          "status": 2
+        },
+        {
+          "emId": "004",
+          "emName": "设备14设备01设备01设备01设备01",
+          "thingId": "abc0014",
+          "status": 2
+        },
+        {
+          "emId": "005",
+          "emName": "设备15设备01设备01设备01设备01",
+          "thingId": "abc0015",
+          "status": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+.header {
+  background-color: #00acc1;
+  color: #fff;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+
+  .title {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 1.25rem;
+    font-family: '新細明體-ExtB Bold', '新細明體-ExtB Regular', '新細明體-ExtB';
+  }
+
+  :global {
+    .ant-menu {
+      background-color: #00acc1;
+      border-bottom: 0;
+
+      .ant-menu-submenu,
+      .ant-menu-item {
+        color: #fff;
+        border: none !important;
+        border-radius: 1.5rem;
+        padding: 0 0.75rem;
+      }
+
+      .ant-menu-item.ant-menu-item-selected {
+        background-color: #009caf;
+        box-shadow: 1px 1px 1px #568886;
+      }
+    }
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+    .ant-menu-submenu-title:hover {
+      color: #eee;
+    }
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+      margin: 0 0.75rem;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item a {
+      color: #fff;
+    }
+  }
+
+  .authButton {
+    display: flex;
+    align-items: center;
+  }
+}

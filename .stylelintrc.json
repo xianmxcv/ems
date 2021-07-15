@@ -1,0 +1,7 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "rules": {
+    "no-missing-end-of-source-newline": null,
+    "property-no-unknown": null
+  }
+}

@@ -1,0 +1,68 @@
+.container {
+  padding: 16px;
+  .title {
+    color: rgb(48, 196, 196);
+  }
+
+  .cardList {
+    margin-top: 12px;
+
+    :global {
+      .ant-card-bordered {
+        border: 1px solid rgba(19, 194, 194, 1);
+      }
+
+      .ant-card {
+        background-color: rgba(67, 251, 251, 0.1);
+      }
+      .ant-card-body {
+        height: 100%;
+        padding: 24px 0;
+      }
+    }
+
+    .card {
+      width: 24%;
+      .head {
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+      }
+      .cardContent {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+
+        & > div {
+          flex: 1;
+        }
+
+        .circle {
+          border-radius: 50%;
+          border: 3px solid #56c8bf;
+          width: 14px;
+          height: 14px;
+          margin-left: 24px;
+        }
+
+        .label {
+          max-width: 43%;
+          min-width: 32%;
+          text-align: right;
+        }
+
+        .value {
+          width: 38%;
+        }
+
+        .ellipsis {
+          display: -webkit-box;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+      }
+    }
+  }
+}

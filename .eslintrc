@@ -1,0 +1,59 @@
+{
+  "env": {
+    "browser": true, // 浏览器环境中的全局变量
+    "es6": true, // 启用除了 modules 以外的所有 ECMAScript 6 特性（该选项会自动设置 ecmaVersion 解析器选项为 6)
+    "node": true // Node.js 全局变量和 Node.js 作用域
+  },
+  "plugins": ["react", "jsx-a11y", "import", "react-hooks", "typescript", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier/react"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "JSX": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 100,
+        "indent": 2,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "htmlWhitespaceSensitivity": "ignore",
+        "endOfLine": "auto"
+      }
+    ],
+    "semi": ["error", "never"],
+    "linebreak-style": [0, "error", "windows"],
+    "no-console": 0,
+    "no-var": 2,
+    "no-unused-vars": 0,
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "import/order": ["warn", { "alphabetize": { "order": "asc" } }],
+    "react-hooks/rules-of-hooks": "error", // 检查 Hook 的规则
+    "react-hooks/exhaustive-deps": "error", // 检查 effect 的依赖
+    "react/display-name": 0,
+    "react/prop-types": 0,
+    "jsx-a11y/no-static-element-interactions": 0
+  }
+}

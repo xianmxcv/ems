@@ -1,0 +1,77 @@
+.region {
+  height: 100%;
+  :global {
+    .ant-card-body {
+      padding: 8px;
+    }
+    .ant-table-thead > tr > th {
+      color: #666666;
+      background: #f2f2f2;
+    }
+    .ant-table-tbody > tr > td {
+      color: #999999;
+      background: #ffffff;
+    }
+  }
+  .tree {
+    width: 300px;
+    height: 100%;
+    overflow: auto;
+
+    .site-tree-search-value {
+      color: #f50;
+    }
+
+    .ellipsis {
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .hide {
+      max-width: 60px;
+    }
+
+    :global {
+      .ant-tree {
+        height: calc(100% - 70px);
+        overflow: auto;
+      }
+      .ant-tree .ant-tree-node-content-wrapper {
+        position: unset;
+      }
+    }
+    .actions {
+      position: absolute;
+      right: 20px;
+      color: #00acc1;
+    }
+  }
+
+  .divider {
+    background-color: #eee;
+    width: 6px;
+    height: 100%;
+    height: auto;
+    margin: 0;
+    // margin-top: -12px;
+  }
+  .TableComponents {
+    width: calc(100% - 306px);
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+.operate-button {
+  :global {
+    button {
+      color: #999999;
+      font-weight: 900;
+    }
+    .ant-input-group {
+      color: #999999;
+      font-weight: 900;
+    }
+  }
+}

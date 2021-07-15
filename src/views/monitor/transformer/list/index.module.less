@@ -1,0 +1,50 @@
+.list {
+  height: 100%;
+  .listContent {
+    text-align: center;
+    overflow-y: auto;
+    height: calc(100% - 100px);
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .item {
+      width: 100%;
+      min-height: 10.625rem;
+      border: 1px solid rgba(241, 242, 247, 1);
+      background-color: rgba(232, 249, 248, 0);
+      padding: 12px 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      &.selected {
+        background-color: rgba(232, 249, 248, 1);
+      }
+
+      &:hover {
+        background-color: rgba(224, 251, 251, 1);
+      }
+
+      &.disabled {
+        cursor: not-allowed;
+      }
+
+      .name {
+        font-weight: 700;
+        font-size: 0.875rem;
+        color: #949fab;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  :global {
+    .ant-divider-horizontal {
+      margin: 10px 0;
+    }
+  }
+}

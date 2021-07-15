@@ -1,0 +1,37 @@
+.sider {
+  width: auto;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+}
+
+.menu {
+  height: 100%;
+  z-index: 4;
+  overflow: auto;
+  position: relative;
+  background: transparent !important;
+
+  :global {
+    .ant-menu-item {
+      width: auto !important;
+      margin: 10px 15px 0 !important;
+      display: block;
+      padding: 0 18px;
+      position: relative;
+      transition: all 300ms linear;
+      // font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+      font-weight: 300;
+      // line-height: 1.5em;
+      border-radius: 3px;
+    }
+
+    .ant-menu-item-selected {
+      box-shadow: 0 12px 20px -10px rgba(0, 172, 193, 0.28), 0 4px 20px 0 rgba(0, 0, 0, 0.12),
+        0 7px 8px -5px rgba(0, 172, 193, 0.2);
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "files.autoSave": "onFocusChange",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "files.exclude": {
+    "**/*.less.d.ts": true
+  },
+  "powermode.enabled": true, // 开启 Power Mode
+  "powermode.shakeIntensity": 0, // 关闭抖动（喜欢的也可以选择不关闭）
+  "powermode.presets": "particles", // 特效预设，还有 "fireworks", "flames", "magic", "clippy", "simple-rift", "exploding-rift"
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "foreground": "red",
+    "background": "white",
+    "opacity": 50,
+    "iconColour": "blue"
+  },
+  "todo-tree.regex.regex": "((\\*|//|#|<!--|;|/\\*|^)\\s*($TAGS):|^\\s*- \\[ \\])",
+  "todo-tree.general.tags": ["todo", "tag", "done", "note", "fix"],
+  "todo-tree.highlights.customHighlight": {
+    "todo": {
+      "foreground": "#f90",
+      "rulerColour": "#f90",
+      "iconColour": "#f90"
+    },
+    "done": {
+      "icon": "issue-closed",
+      "foreground": "#fdff03",
+      "rulerColour": "#fdff03",
+      "iconColour": "#fdff03"
+    },
+    "fix": {
+      "icon": "beaker",
+      "foreground": "#fb0200",
+      "rulerColour": "#fb0200",
+      "iconColour": "#fb0200",
+      "rulerLane": "full"
+    },
+    "tag": {
+      "icon": "tag",
+      "foreground": "#67cdfe",
+      "rulerColour": "#67cdfe",
+      "iconColour": "#67cdfe",
+      "rulerLane": "full"
+    },
+    "note": {
+      "foreground": "#02dc00",
+      "icon": "note",
+      "rulerColour": "#02dc00",
+      "iconColour ": "#02dc00"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "px-to-rem.px-per-rem": 16,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

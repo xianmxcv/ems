@@ -1,0 +1,38 @@
+.container {
+  height: 100%;
+  overflow: hidden;
+
+  .list {
+    padding: 1.25rem;
+    height: 100%;
+
+    :global {
+      .ant-divider-horizontal {
+        margin: 12px 0;
+      }
+    }
+  }
+
+  .layout_divider {
+    background-color: #eee;
+    width: 6px;
+    height: 100%;
+  }
+
+  .divider {
+    height: 6px;
+    background-color: #eee;
+    margin: 0 0 0 -12px;
+  }
+
+  :global {
+    .ant-spin-nested-loading {
+      width: 17.5%;
+      height: 100%;
+
+      .ant-spin-container {
+        height: 100%;
+      }
+    }
+  }
+}

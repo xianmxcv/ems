@@ -1,0 +1,84 @@
+{
+  "code": "000000",
+  "msg": "处理成功",
+  "data": {
+    "current": 1,
+    "size": 15,
+    "total": 6,
+    "records": [
+      {
+        "thingId": "123",
+        "assetThingExtendId": "bd4eab4f-27b7-11eb-a5e4-dd2fa101a717",
+        "thingName": "1号手术室内-四代DTMV",
+        "modeCode": "2564-54-6549",
+        "APPLVersionName": "V00.00.00.01",
+        "BOOTVersionName": "V0.0.0.3",
+        "otherVersionName": "/",
+        "thingStatus": "1",
+        "updated": "true",
+        "createdTime": "2020-06-01 12:06:31"
+      },
+      {
+        "thingId": "1234",
+        "assetThingExtendId": "bd4eab4f-27b7-11eb-a5e4-dd2fa101a7171",
+        "thingName": "1号手术室内-四代DTMV",
+        "modeCode": "2564-54-6549",
+        "APPLVersionName": "V00.00.00.01",
+        "BOOTVersionName": "V0.0.0.3",
+        "otherVersionName": "/",
+        "thingStatus": "1",
+        "updated": "true",
+        "createdTime": "2020-06-01 12:06:31"
+      },
+      {
+        "thingId": "1235",
+        "assetThingExtendId": "bd4eab4f-27b7-11eb-a5e4-dd2fa101a7172",
+        "thingName": "1号手术室内-四代DTMV",
+        "modeCode": "2564-54-6549",
+        "APPLVersionName": "V00.00.00.01",
+        "BOOTVersionName": "V0.0.0.3",
+        "otherVersionName": "/",
+        "thingStatus": "1",
+        "updated": "true",
+        "createdTime": "2020-06-01 12:06:31"
+      },
+      {
+        "thingId": "1236",
+        "assetThingExtendId": "bd4eab4f-27b7-11eb-a5e4-dd2fa101a714",
+        "thingName": "1号手术室内-四代DTMV",
+        "modeCode": "2564-54-6549",
+        "APPLVersionName": "V00.00.00.01",
+        "BOOTVersionName": "V0.0.0.3",
+        "otherVersionName": "/",
+        "thingStatus": "1",
+        "updated": "true",
+        "createdTime": "2020-06-01 12:06:31"
+      },
+      {
+        "thingId": "1237",
+        "assetThingExtendId": "bd4eab4f-27b7-11eb-a5e4-dd2fa101a713",
+        "thingName": "1号手术室内-四代DTMV",
+        "modeCode": "2564-54-6549",
+        "APPLVersionName": "V00.00.00.01",
+        "BOOTVersionName": "V0.0.0.3",
+        "otherVersionName": "/",
+        "thingStatus": "1",
+        "updated": "true",
+        "createdTime": "2020-06-01 12:06:31"
+      },
+      {
+        "thingId": "1238",
+        "assetThingExtendId": "bd4eab4f-27b7-11eb-a5e4-dd2f4101a717",
+        "thingName": "1号手术室内-四代DTMV",
+        "modeCode": "2564-54-6549",
+        "APPLVersionName": "V00.00.00.01",
+        "BOOTVersionName": "V0.0.0.3",
+        "otherVersionName": "/",
+        "thingStatus": "3",
+        "updated": "true",
+        "createdTime": "2020-06-01 12:06:31"
+      }
+    ]
+  },
+  "time": "2020-11-25T04:08:01.855Z"
+}

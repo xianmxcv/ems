@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "name": "changxian01",
+      "value": [
+        {
+          "name": "设备01设备01设备01设备01设备01",
+          "status": true
+        },
+        {
+          "name": "设备02",
+          "status": false
+        },
+        {
+          "name": "设备03",
+          "status": true
+        },
+        {
+          "name": "设备04",
+          "status": true
+        },
+        {
+          "name": "设备05",
+          "status": true
+        }
+      ]
+    },
+    {
+      "name": "changxian02",
+      "value": [
+        {
+          "name": "设备07",
+          "status": true
+        }
+      ]
+    },
+    {
+      "name": "changxian02",
+      "value": [
+        {
+          "name": "设备10",
+          "status": true
+        },
+        {
+          "name": "设备11",
+          "status": false
+        }
+      ]
+    }
+  ]
+}

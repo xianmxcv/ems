@@ -1,0 +1,151 @@
+{
+  "pens": [
+    {
+      "imageRatio": true,
+      "points": [],
+      "anchors": [
+        {
+          "x": 99,
+          "y": 441.5,
+          "direction": 4
+        },
+        {
+          "x": 702,
+          "y": 86,
+          "direction": 1
+        },
+        {
+          "x": 1305,
+          "y": 441.5,
+          "direction": 2
+        },
+        {
+          "x": 702,
+          "y": 797,
+          "direction": 3
+        }
+      ],
+      "rotatedAnchors": [
+        {
+          "x": 99,
+          "y": 441.5,
+          "direction": 4
+        },
+        {
+          "x": 702,
+          "y": 86,
+          "direction": 1
+        },
+        {
+          "x": 1305,
+          "y": 441.5,
+          "direction": 2
+        },
+        {
+          "x": 702,
+          "y": 797,
+          "direction": 3
+        }
+      ],
+      "animateDuration": 0,
+      "animateFrames": [],
+      "animateFrame": 0,
+      "name": "image",
+      "tags": [],
+      "visible": true,
+      "rect": {
+        "x": 20,
+        "y": 20,
+        "width": 1600,
+        "height": 800,
+        "center": {
+          "x": 810,
+          "y": 410
+        },
+        "ex": 1620,
+        "ey": 820
+      },
+      "fontColor": "#222222",
+      "fontFamily": "\"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial",
+      "fontSize": 12,
+      "lineHeight": 1.5,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "textAlign": "center",
+      "textBaseline": "middle",
+      "textBackground": "",
+      "animateCycleIndex": 0,
+      "events": [],
+      "dash": 0,
+      "lineDashOffset": 0,
+      "lineWidth": 1,
+      "strokeStyle": "#222222",
+      "fillStyle": "",
+      "globalAlpha": 1,
+      "rotate": 0,
+      "offsetRotate": 0,
+      "textMaxLine": 0,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "animatePos": 0,
+      "id": "b775924",
+      "zRotate": 0,
+      "borderRadius": 0,
+      "imageAlign": "center",
+      "gradientAngle": 0,
+      "gradientRadius": 0.01,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "children": [],
+      "text": "",
+      "image": "/static/media/ssls.c34a1933.png",
+      "TID": "756f9f28",
+      "type": 0,
+      "animateType": "",
+      "paddingLeftNum": 0,
+      "paddingRightNum": 0,
+      "paddingTopNum": 0,
+      "paddingBottomNum": 0,
+      "iconRect": {
+        "x": 20,
+        "y": 20,
+        "width": 1600,
+        "height": 800,
+        "center": {
+          "x": 810,
+          "y": 410
+        },
+        "ex": 1620,
+        "ey": 820
+      },
+      "fullIconRect": {
+        "x": 20,
+        "y": 20,
+        "width": 1600,
+        "height": 800,
+        "center": {
+          "x": 810,
+          "y": 410
+        },
+        "ex": 1620,
+        "ey": 820
+      },
+      "elementRendered": false,
+      "img": {},
+      "lastImage": "/static/media/ssls.c34a1933.png",
+      "imgNaturalWidth": 5022,
+      "imgNaturalHeight": 3008
+    }
+  ],
+  "lineName": "curve",
+  "fromArrow": "",
+  "toArrow": "triangleSolid",
+  "scale": 1,
+  "locked": 0,
+  "mqttOptions": {
+    "clientId": "ef0f1"
+  },
+  "bkColor": "#08122b"
+}
